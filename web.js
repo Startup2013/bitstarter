@@ -4,7 +4,7 @@ var fs = require('fs');
 var app = express.createServer(express.logger());
 
 app.configure(function(){
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/docs/'));
 });
 
 app.get('/', function(request, response) {
