@@ -1,0 +1,30 @@
+#main_nav {
+	background-color: white;
+	border-bottom: 1px #6f176c solid;
+}
+
+#btn_feedback {
+	position: absolute;
+	right: 0px;
+	top: 30%;
+}
+
+.jumbotron {
+	background-image: url('../img/bg.jpg');
+	color: white;
+}
+
+#main_nav ul li a {
+	font-size: 1.1em;
+	padding-top: 25px;
+}
+
+.panel-danger .panel-heading {
+	background-color: #860A08;
+	color: white;
+}
+
+.panel-info .panel-heading {
+	background-color: #2B67D3;
+	color: white;
+}

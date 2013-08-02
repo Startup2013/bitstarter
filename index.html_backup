@@ -136,8 +136,7 @@
       </div>
       <div class="col-offset-2">
         <button type="button" class="btn btn-success">Donate</button>
-        <a data-toggle="modal" href="#subscribe"  class="btn btn-success col-offset-1" >Subscribe</a>
-        <!-- <button type="button" class="btn btn-success col-offset-1">Subscribe</button> -->
+        <button type="button" class="btn btn-success col-offset-1">Subscribe</button>
       </div>
 
      <!-- <section class="cont">
@@ -266,16 +265,14 @@
           
         </div>
         <div class="modal-body">
-          <form action="/subscribe" method="post">
+          <form>
            <fieldset>
             <legend>I would like to be informed on further development.</legend>
             <div class="form-group">
               <label for="Email">Email address</label>
-              <input style="margin-bottom:25px;" type="text" class="form-control" id="Email" placeholder="Enter email" name="email_address">
-              <button type="Submit" class="btn btn-success pull-right">Send Me The News</button>
+              <input style="margin-bottom:25px;" type="text" class="form-control" id="Email" placeholder="Enter email">
+              <button type="button" class="btn btn-success pull-right">Send Me The News</button>
             </div>
-           </fieldset>
-           </form>
         </div>
 
           <!-- <a href="#" class="btn btn-primary">Save changes</a> -->
@@ -291,19 +288,5 @@
     <!-- Optionally enable responsive features in IE8 -->
     <script src="js/respond.js"></script>
 
-<script>
- /* $(document).ready(function() {
-    $.ajax({
-                type: 'POST',
-                url: '/subscribe',
-                data: {"username": $('#Email').val()},
-                success: function(taken){
-                    alert('Data sent!');
-                },
-                dataType: "json"
-            })
-});*/
-</script>
-
-  </body>
+ </body>
 </html>

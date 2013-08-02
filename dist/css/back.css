@@ -1,0 +1,79 @@
+
+    .cont {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto 40px;
+      border: 1px solid #CCC;
+     
+    }
+
+    #card {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+    }
+
+    #card.flipped {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }
+
+    #card figure {
+      display: block;
+      height: 100%;
+      width: 100%;
+   
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      position: absolute;
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    #card figure p {
+      margin-left: auto;
+      margin-right: auto;
+
+      display: table-cell;
+    vertical-align: middle;
+    }
+
+
+    #card .front {
+    	width: 260px;
+    height: 260px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+      background: red;
+    }
+
+    #card .back {
+    	width: 260px;
+    height: 260px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+      background: blue;
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }
+  
